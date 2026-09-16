@@ -3,7 +3,7 @@
 
 ## A summary of everything this project does in detail is below:
 1. The real-time detection script initializes the camera, captures frames in a loop, and applies the Haar Cascade detector.
-2. 2. A crop and detect function calculates a square bounding box to see the entire head (hair, ears, chin). This function returns a 160 x 160 image for inference. 
+2. A crop and detect function calculates a square bounding box to see the entire head (hair, ears, chin). This function returns a 160 x 160 image for inference. 
 3. The 160 x 160 face image is passed to the TFLite model to get a 512-dimensional embedding vector. The 
 vector is used to calculate the Euclidean distance and cosine similarity between the images of upto 2 different people.
 
