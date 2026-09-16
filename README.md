@@ -7,8 +7,8 @@
 3. The 160 x 160 face image is passed to the TFLite model to get a 512-dimensional embedding vector. The 
 vector is used to calculate the Euclidean distance and cosine similarity between the images of upto 2 different people.
 
-#### Explanation of euclidean distance and Cosine similarity copied from the University of Illinois Urbana Champaign's ECE 479: 
-IoT Systems curriculum: Euclidean Distance vs. Cosine Similarity: While Euclidean distance is common, Cosine Similarity is the standard for comparing embeddings because it measures the angle between vectors, ignoring lighting-induced magnitude changes.
+#### Explanation of euclidean distance and Cosine similarity copied from the University of Illinois Urbana Champaign's ECE 479: IoT Systems curriculum: 
+Euclidean Distance vs. Cosine Similarity: While Euclidean distance is common, Cosine Similarity is the standard for comparing embeddings because it measures the angle between vectors, ignoring lighting-induced magnitude changes.
 Euclidean: Lower is better (0.0 = exact match).
 Cosine: Higher is better (1.0 = exact match).
 Final Task: Collect 4 images:
